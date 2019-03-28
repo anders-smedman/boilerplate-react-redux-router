@@ -21,7 +21,10 @@ class App extends Component {
   render() {
     if (this.props.dummy.started === false){
       return (
-        <p>dummy is false, starting up, just 3sec timeout then dispatch dummy() action that will trigger reducer dummy</p>
+        <p>dummy is false, starting up, 
+          just 3sec timeout then dispatch 
+          dummy() action that will trigger 
+          reducer dummy</p>
       )
     }
       return (
